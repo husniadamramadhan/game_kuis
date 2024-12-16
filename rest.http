@@ -1,0 +1,14 @@
+POST http://localhost:3000/api/addcard
+Content-Type: application/json
+
+{
+    "tag": "kimia",
+    "question": "siapa Robert Openhaimer"
+}
+
+###
+GET  http://localhost:3000/api/getallcard
+
+###
+GET  http://localhost:3000/api/getallcard/kimia
+
